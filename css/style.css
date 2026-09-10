@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+nav{
+    height: 67px;
+}
+nav .row{
+    justify-content: space-between;
+}
+.logo{
+    margin: 13px 0 0 0;
+}
+.menu{
+    margin: 18px 0 0 0;
+}
+.menu a{
+    color: #353535;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    margin-right: 30px;
+}
+.menu a:last-child{
+    margin-right: 0;
+}
+.hero-image-1{
+    margin: 50px auto;
+}
+.hero-image-text{
+    margin: -130px 0 0 0;
+    text-align: center;
+}
+.hero-image-text h1{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: #ffffff;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+.box span{
+    border: 1.5px solid #fff;
+    width: 84px;
+    height: 0;
+    margin-top: 20px;
+}
+.box p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #fff;
+}
+.hero-2{
+    width: 100%;
+    margin: 100px 0 100px 0;
+}
+.hero-image-bg{
+    width: 30%;
+    border-radius: 28px;
+    width: 380px;
+    height: 292px;
+    background: #fc0;
+    margin-top: 230px;
+}
+.hero-image-bg img{
+    margin-top: -233px;
+}
+.hero-image-bg svg{
+    display: flex;
+    margin: -107px 0 0 350px;
+}
+.hero-2-text{
+    width: 60%;
+    margin: 20px 0 0 60px;
+}
+.hero-2-text p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 200%;
+    text-align: justify;
+    color: #7a7a7a;
+    margin-bottom: 90px;
+}
+.my-details{
+    display: flex;
+    flex-wrap: wrap;
+    width: 593px;
+    height: 180px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.line{
+    width: 256px;
+}
+.line div{
+    margin-bottom: 20px;
+}
+
+.my-details small{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+.my-details span{
+    font-weight: 500;
+    color: #353535;
+    margin-left: 10px;
+}
+.hero-btn a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #fff;
+    border-radius: 12px;
+    padding: 15px 45px;
+}
+.hero-btn .yellow{
+    background: #fc0;
+    color: #fff;
+    padding-right: 55px;
+    background-image: url(./akar-icons_cloud-download.png);
+    background-position: calc(100% - 20px) center;
+    background-repeat: no-repeat;
+    background-size: 20px; 
+}
+hr{
+    margin: 100px 0 0px 0;
+    border: none;
+    height: 0.70px;
+    background-color: #7a7a7a;
+}
+.experience-education{
+    margin-bottom: 80px;
+}
+.experience{
+    width: 50%;
+}
+.experience h2{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    margin-bottom: 50px;
+}
+.experience-details{
+    display: flex;
+}
+.experience-details div{
+    margin: 7px 0 0 30px;
+}
+.experience-details small{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+    color: #7a7a7a;
+}
+.experience-details h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+.experience-details p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin-bottom: 60px;
+}
+.education{
+    width: 50%;
+}
+.education h2{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+    margin-bottom: 50px;
+}
+.skill h2{
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #353535;
+}
+.percentage{
+    width: 33.30%;
+    margin: 20px 0 0 0;
+}
+.percentage p{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    
+}
+.percentage small{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+}
+.orange{
+    color: #f16500;
+    margin-left: 155px;
+}
+.violate{
+    color: #700d60;
+    margin-left: 185px;
+}
+.s-yellow{
+    color: #efc003;
+    margin-left: 60px;
+}
+.blue{
+    color: #03249b;
+    margin-left: 60px;
+}
+.footer{
+    margin-top: 100px;
+}
+.footer-bg{
+    width: 100%;
+    height: 480px;
+    background: #575757;
+}
+.footer strong{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+.stickers{
+    width: 10%;
+}
+.stickers svg{
+    margin: 180px 0 0 100px;
+}
+.stickers img{
+    margin: 120px 0 0 0;
+}
+.footer-left{
+    width: 27%;
+    margin: 80px 0 0 0;
+}
+.footer-left img{
+    margin-bottom: 200px;
+}
+.footer-left small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+}
+.footer-mid{
+    width: 30%;
+    margin: 55px 0 0 0;
+}
+.footer-mid h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+}
+.footer-mid p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+    margin-bottom: 115px;
+}
+.footer-mid small{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #bbb9b9;
+}
+.footer-right{
+    width: 30%;
+    margin: 120px 0 0 30px;
+    text-align: center;
+}
+.footer-right a{
+    font-size: 20px;
+    line-height: 180%;
+    border-radius: 20px;
+    padding: 15px 45px;
+}
+.hero-btn .cv{
+    background: #fc0;
+    color: #fff;
+    padding-right: 55px;
+    background-image: url(./lucide_send.png);
+    background-position: calc(100% - 20px) center;
+    background-repeat: no-repeat;
+    background-size: 20px; 
+}
+.follow-links{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+.follow-links p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: justify;
+    color: #fff;
+}
+.follow-links a{
+    width: 50px;
+    margin: -20px 0 0 -20px;
+}
+.a-bg{
+    border-radius: 100%;
+    background-color: #484848;
+    width: 48px;
+    height: 48px;
+}
+.a-bg img{
+    margin: 12px 0 0 0;
+}
